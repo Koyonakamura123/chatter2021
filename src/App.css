@@ -42,6 +42,7 @@
 }
 .message-row{
   width:100%;
+  
 }
 .message{
   background:black;
@@ -148,4 +149,8 @@
 .logo-box {
   display: flex;
   flex-direction: row;
+}
+
+.text-username {
+  font-size: .7rem;
 }
