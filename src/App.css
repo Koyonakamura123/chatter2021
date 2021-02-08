@@ -22,6 +22,7 @@
   font-size:1.2rem;
   color:white;
   font-weight: bold;
+  justify-content: space-between;
 }
 .logo{
   height:1.8rem;
@@ -99,24 +100,6 @@
   padding-left:10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .inputx{
   border:1px solid white;
   border-radius:1.6rem;
@@ -147,4 +130,22 @@
 .send-buttonx[disabled]{
   cursor: default;
   background:grey;
+}
+
+.name-picker {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-picker input {
+  margin-right: 1rem;
+}
+
+.username {
+  margin-right: 1rem;
+}
+
+.logo-box {
+  display: flex;
+  flex-direction: row;
 }

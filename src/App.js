@@ -13,8 +13,10 @@ function App() {
   return <div className={"App"}>
  
     <header className="header">
-      <div className="logo" />
-      CHATTER
+      <div className="logo-box">
+        <div className="logo" />
+        CHATTER
+      </div>
       <NamePicker saveName={setUsername} />
     </header>
 
